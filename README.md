@@ -1,10 +1,10 @@
 # Hue MQTT Bridge
 
-[![CI](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/hue-mqtt-bridge/ci.yml?style=for-the-badge&label=CI)](https://github.com/tobiaswaelde/hue-mqtt-bridge/actions/workflows/ci.yml) [![Docs](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/hue-mqtt-bridge/docs.yml?style=for-the-badge&label=Docs)](https://github.com/tobiaswaelde/hue-mqtt-bridge/actions/workflows/docs.yml) [![Deploy](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/hue-mqtt-bridge/deploy.yml?style=for-the-badge&label=Deploy)](https://github.com/tobiaswaelde/hue-mqtt-bridge/actions/workflows/deploy.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/philips-hue/ci.yml?style=for-the-badge&label=CI)](https://github.com/open-mqtt-bridges/philips-hue/actions/workflows/ci.yml) [![Docs](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/philips-hue/docs.yml?style=for-the-badge&label=Docs)](https://github.com/open-mqtt-bridges/philips-hue/actions/workflows/docs.yml) [![Deploy](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/philips-hue/deploy.yml?style=for-the-badge&label=Deploy)](https://github.com/open-mqtt-bridges/philips-hue/actions/workflows/deploy.yml)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-tobiaswaelde-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://www.buymeacoffee.com/tobiaswaelde)
 
-NestJS bridge between a local Philips Hue Bridge and MQTT. Full documentation: [tobiaswaelde.github.io/hue-mqtt-bridge](https://tobiaswaelde.github.io/hue-mqtt-bridge/).
+NestJS bridge between a local Philips Hue Bridge and MQTT. Full documentation: [open-mqtt-bridges.github.io/philips-hue](https://open-mqtt-bridges.github.io/philips-hue/).
 
 ## Quick start
 
@@ -41,13 +41,17 @@ mosquitto_pub -h mqtt.example.net -t 'home/hue/living-room/lights/1/command/json
 
 ## Documentation
 
-- [Documentation home](https://tobiaswaelde.github.io/hue-mqtt-bridge/)
-- [Configuration](https://tobiaswaelde.github.io/hue-mqtt-bridge/configuration)
-- [Authentication](https://tobiaswaelde.github.io/hue-mqtt-bridge/authentication)
-- [MQTT contract](https://tobiaswaelde.github.io/hue-mqtt-bridge/mqtt)
-- [Docker deployment](https://tobiaswaelde.github.io/hue-mqtt-bridge/deployment)
-- [WLED MQTT Bridge for WLED controllers](https://tobiaswaelde.github.io/wled-mqtt-bridge/)
+- [Documentation home](https://open-mqtt-bridges.github.io/philips-hue/)
+- [Configuration](https://open-mqtt-bridges.github.io/philips-hue/configuration)
+- [Authentication](https://open-mqtt-bridges.github.io/philips-hue/authentication)
+- [MQTT contract](https://open-mqtt-bridges.github.io/philips-hue/mqtt)
+- [Docker deployment](https://open-mqtt-bridges.github.io/philips-hue/deployment)
+- [WLED MQTT Bridge for WLED controllers](https://open-mqtt-bridges.github.io/wled/)
 
 ## Development toolchain
 
 Use Node.js 26.13.0 LTS and the package manager pinned in `package.json`. Node-based application runtimes require Node.js 26. Builds use TypeScript 7; ESLint and compiler-API consumers use the TypeScript 6 compatibility package. Dependency overrides, where present, pin security fixes for transitive packages; validate tests and documentation builds when changing them.
+
+## Contributing
+
+See the [development guide](docs/development.md) for the pinned toolchain, checks and Spec Kit usage, and the [organization contribution guide](https://github.com/open-mqtt-bridges/.github/blob/main/CONTRIBUTING.md) for pull requests.

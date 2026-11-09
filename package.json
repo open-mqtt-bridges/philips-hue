@@ -53,5 +53,14 @@
     "tsx": "^4.23.15",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-eslint": "^8.72.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-mqtt-bridges/philips-hue.git"
+  },
+  "homepage": "https://open-mqtt-bridges.github.io/philips-hue/",
+  "bugs": {
+    "url": "https://github.com/open-mqtt-bridges/philips-hue/issues"
   }
 }
