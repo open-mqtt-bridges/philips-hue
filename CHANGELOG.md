@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- [#41](https://github.com/open-mqtt-bridges/philips-hue/pull/41) [`5bbed11`](https://github.com/open-mqtt-bridges/philips-hue/commit/5bbed117aa5ac353680ca949315d4e3cec5dc604) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update compatible runtime dependencies and remediate vulnerable transitive tooling while preserving the existing MQTT and configuration contracts.
+
 ## 1.0.0
 
 ### Major Changes
